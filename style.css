@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+body{
+    background: black
+}
+.nav{
+    background: linear-gradient(rgb(0, 0, 0),rgb(92, 160, 92));
+    height: 45px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ .nav a{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bolder;
+} 
+
+.gameContainer{
+    background-color: black;
+    height: 80vh;
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-image: url(bg.jpg); */
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+}
+.blocks{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 5px;
+    /* justify-content: center; */
+}
+.button{
+    height: 120px;
+    width: 120px;
+    /* color: greenyellow; */
+    z-index: 10;
+    font-size: 0px;
+    background: url(bg.jpg);
+    background-size: 500px;
+    border: 2px solid greenyellow;
+}
+.gameInfo{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 50%;
+    font-weight: bolder;
+    color: greenyellow;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    gap: 20px;
+}
+.gameInfo h1{
+    font-size: 70px;
+}
+.mine{
+    background-color: red;
+    background-image: url('bomb.png');
+    background-size: 130px ;
+
+}
+.gem{
+    background-color: greenyellow;
+    background-image: url('gem.png');
+    background-size: cover;
+}
+#startBtn{
+    height: 100px;
+    width: 150px;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#inputmines{
+    display: flex;
+    gap: 5px;
+}
+.profitcontainer{
+    height: 60px;
+    width: 250px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+}
+#widraw{
+    height: 40px;
+    width: 100px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.winning{
+    font-size: 30px;
+}

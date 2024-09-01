@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="nav">
+        <a href="">Mines<i class="fa-solid fa-heart"></i></a>
+    </div>
+    <div class="gameContainer">
+        <div class="blocks">
+            <div class="row">
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+            </div>
+            <div class="row">
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+            </div>
+            <div class="row">
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+            </div>
+            <div class="row">
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+            </div>
+            <div class="row">
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+                <button class="button"></button>
+            </div>
+
+        </div>
+        <div class="gameInfo">
+            <h1>Lets's Play Mines</h1>
+            <div class="minesCount">
+                    <input id="input" type="text" style="font-size: 25px; margin-top: 50px; background-color: greenyellow;">
+                    <p style="font-size: 25px; margin-top: 30px;">No of Mines</p>
+                    <button id="go" style="height: 60px; width: 70px; border-radius: 10px; font-family: 30px; color: black; background-color: greenyellow;margin-top: 30px; font-weight: bolder;">Set Mines</button>
+            </div>
+            <button id="startBtn">Start Game</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
