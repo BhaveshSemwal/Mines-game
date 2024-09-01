@@ -20,3 +20,6 @@ JavaScript: Core logic for random mine placement, user interaction, and game sta
 
 Design
 ![image](https://github.com/user-attachments/assets/ef9e8e91-b404-4e30-9e9f-791202c058ef)
+
+
+![image](https://github.com/user-attachments/assets/744409a2-230b-45ee-9a64-030c4d4e96b2)
